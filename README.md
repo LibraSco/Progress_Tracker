@@ -1,2 +1,92 @@
-# Progress_Tracker
-This project is a lightweight and simple progress tracking website that enables real-time tracking of learning progress for projects and courses, thereby improving learning efficiency.
+# Progress_Tracker 进度追踪
+
+**This project is a lightweight and simple progress tracking website that enables real-time tracking of learning progress for projects and courses, thereby improving learning efficiency.**
+
+**本项目是一个用于进度追踪的网站，主要特点是轻量简洁，可以实时追踪项目和课程的学习进度，提升学习效率**
+
+✨ 功能特点
+
+🎨 界面设计
+
+粘土拟态风格：圆润的边角、厚实的阴影、柔和的色彩
+
+白天/黑夜模式：支持浅色和深色主题切换
+
+响应式设计：适配移动端和桌面端
+
+📊 计划管理
+
+两种计划类型：
+
+📚 课程：追踪课程学习进度（按集数）
+
+📁 项目：分解为多个子项目，逐一完成
+
+-优先级标记：1-5星重要性评级
+
+-颜色标签：6种颜色区分不同计划
+
+-截止日期：日历选择，自动计算剩余天数
+
+📱 三大板块
+
+📋 进行中：显示所有未完成的计划
+
+🏆 已完成：显示已完成的计划（灰色模式）
+
+👤 我的：个人设置、主题切换、统计数据
+
+⚡ 核心功能
+
+1.子项目管理：项目类型支持添加多个子任务
+
+2.一键完成：点击子项目前的按钮标记完成
+
+3.自动排序：已完成的子项目自动排在后面
+
+4.进度统计：实时显示完成百分比、剩余天数、每日需完成量
+
+5.本地存储：数据保存在浏览器本地，刷新不丢失
+
+🚀 使用方法
+
+**创建课程计划**
+
+1.点击右下角 + 按钮
+
+2.选择 "课程" 类型
+
+3.填写计划名称、课程集数、预计时长、截止日期
+
+4.选择颜色标签和优先级
+
+5.点击 "创建计划"
+
+
+**创建项目计划**
+
+1.点击右下角 + 按钮
+
+2.选择 "项目" 类型
+
+3.填写计划名称
+
+4.输入子项目数量，点击 "确定"
+
+5.填写每个子项目的名称
+
+6.点击 "确认子项目"
+
+7.填写预计时长、截止日期，选择颜色和优先级
+
+8.点击 "创建计划"
+
+**更新进度**
+
+课程类型：进入详情页，直接输入已完成集数
+
+项目类型：点击子项目前的复选框标记完成
+
+进入 "我的" 页面
+点击 "深色模式" 开关
+主题会立即切换并保存
